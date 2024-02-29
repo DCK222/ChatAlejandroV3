@@ -53,7 +53,7 @@
 
   <script>
     $(function () {
-      const socket = io("https://chatnode.zeabur.app"); 
+      const socket = io("https://chatalejandro.zeabur.app/"); 
       $("#form").submit(function (event) {
         event.preventDefault();
         socket.emit("Mensaje de chat", $("#input").val());
